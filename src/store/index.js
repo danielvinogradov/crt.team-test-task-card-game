@@ -3,13 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import { CardGame } from './modules/CardGame';
+
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    modules: { CardGame, }
 })
